@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["psi.xie@gmail.com"]
   gem.description   = %q{ a project for conversion between Traditional and Simplified Chinese, wrapper in ruby. }
   gem.summary       = %q{ a project for conversion between Traditional and Simplified Chinese. }
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/Psli/ropencc"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
