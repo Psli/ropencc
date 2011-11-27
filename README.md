@@ -16,26 +16,26 @@ Install
 -------
 1. 先安装 libopencc
 
-   Ubuntu
+    Ubuntu
 
-   如果你正在使用Ubuntu 10.10 (Maverick) 以上的版本，opencc已經被加入到了官方源中，使用
+    如果你正在使用Ubuntu 10.10 (Maverick) 以上的版本，opencc已經被加入到了官方源中，使用
 
-       sudo apt-get install opencc
+        sudo apt-get install opencc
 
-   如果你更願意體驗最新的版本，請使用ppa：
+    如果你更願意體驗最新的版本，請使用ppa：
 
-       sudo add-apt-repository ppa:byvoid-kcp/ppa
-       sudo apt-get update
-       sudo apt-get install opencc
+        sudo add-apt-repository ppa:byvoid-kcp/ppa
+        sudo apt-get update
+        sudo apt-get install opencc
 
 
-   Mac OS X
+    Mac OS X
 
-   使用 brew 安装
+    使用 brew 安装
 
-       brew install opencc
+        brew install opencc
 
-   更多 libopencc 安装介绍请查看： <http://code.google.com/p/opencc/wiki/Install>
+    更多 libopencc 安装介绍请查看： <http://code.google.com/p/opencc/wiki/Install>
 
 2. 安装 ropencc
    
