@@ -9,7 +9,7 @@ ropencc is a project for conversion between Traditional and Simplified Chinese, 
 
 还有若干语言习惯的问题，例如同一个地名的称呼就不一样，就不一一列举了
 
-而 Open Chinese Convert（OpenCC）「开发中文转换」，是一个致力于中
+而 Open Chinese Convert（OpenCC）「开放中文转换」，是一个致力于中
 文简繁转换的项目，由清华大学的 [BYVoid](http://www.byvoid.com/blog/about/) 提供高质量词库和函数库(libopencc)。<a href='http://code.google.com/p/opencc/'>更多介紹</a>。
 
 Install
