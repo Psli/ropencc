@@ -8,6 +8,8 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{ a project for conversion between Traditional and Simplified Chinese. }
   gem.homepage      = "https://github.com/Psli/ropencc"
 
+  gem.add_dependency 'ffi', '~> 1.0'
+
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
