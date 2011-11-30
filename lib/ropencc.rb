@@ -32,6 +32,7 @@ module Ropencc
       out_str = ptr.read_string
       LibC.free ptr
       LibOpenCC.opencc_close od
+      out_str.force_encoding("UTF-8") if out_str.respond_to?(:force_encoding)
       out_str
     end
   end
