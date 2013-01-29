@@ -44,13 +44,27 @@ Install
 Usage
 -----
 
-简转繁
+简转繁 (Simple Interface)
 
     Ropencc.conv('simp_to_trad', str)
 
-繁转简
+繁转简 (Simple Interface)
 
     Ropencc.conv('trad_to_simp', str)
+
+简转繁 (File-Class like Interface)
+
+    Ropencc.open 'zhs2zhtw_vp.ini' do |cc|
+        rs = cc.convert '新年快乐''
+        assert_equal '新年快樂', rs
+    end
+
+繁转简 (File-Class like Interface)
+
+    Ropencc.open 'zhtw2zhcn_s.ini' do |cc|
+        rs = cc.convert '新年快樂'
+        assert_equal '新年快乐', rs
+    end
 
 
 附：libopencc 作者简介
