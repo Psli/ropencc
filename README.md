@@ -21,12 +21,14 @@ Install
     如果你正在使用Ubuntu 10.10 (Maverick) 以上的版本，opencc已經被加入到了官方源中，使用
 
         sudo apt-get install opencc
+        sudo apt-get install libopencc-dev
 
     如果你更願意體驗最新的版本，請使用ppa：
 
         sudo add-apt-repository ppa:byvoid-kcp/ppa
         sudo apt-get update
         sudo apt-get install opencc
+        sudo apt-get install libopencc-dev
 
 
     Mac OS X
