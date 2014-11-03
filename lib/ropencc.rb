@@ -3,8 +3,6 @@
 require 'ffi'
 
 class Ropencc
-    VERSION = '0.0.5'
-
     module LibOpenCC
         extend FFI::Library
         ffi_lib 'opencc'
